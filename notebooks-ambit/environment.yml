@@ -1,0 +1,16 @@
+name: notebooks-ambit
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python
+  - pip
+  - requests
+  - ipywidgets
+  - pandas
+  - numpy
+  - pyyaml
+  - qgrid
+  - measurement
+  - pip:
+      - pynanomapper
